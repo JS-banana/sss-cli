@@ -1,0 +1,23 @@
+{
+  "name": "sss-cli",
+  "version": "0.0.1",
+  "description": "前端通用脚手架",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js,.tsx,.ts",
+    "lint:fix": "yarn lint --fix"
+  },
+  "bin": {
+    "sss": "index.js"
+  },
+  "author": "JS-banana",
+  "license": "TIM",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.0"
+  }
+}
